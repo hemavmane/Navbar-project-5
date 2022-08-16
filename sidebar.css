@@ -18,20 +18,28 @@ visibility: hidden;
     height: 60px;
     font-size: 40px;
     color: blue;
+    border: none;
     background-color:lightgreen;
    box-sizing: border-box;
-  transition: 1s;
-  animation: 2s;
+  transition: 800ms;
+
+}
+
+.btn:hover{
+height: 120px;
+transition: 900ms;
+width: 100px;
+font-size: 80px;
 }
 
 main{
     padding: 10px;
     border: none ;
     width: 300px;
-    height:500px;
+    height:800px;
     background-color: lightgrey;
     cursor: pointer;
-    transition: 2s;
+    transition: all -0.9s linear;
    position: relative;
 }
 
@@ -44,15 +52,17 @@ div,.heading{
     font-size: 30px;
 }
 
-span{
-    font-size: 30px;
-    color: red;
-}
 
 .add{
     position: absolute;
     right: 3%;
     font-size: 60px;
+    color: red;
+}
+.add:hover{
+   transform: rotate3d(1,1,1,90deg);
+  
+
 }
 ul{
    
