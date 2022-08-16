@@ -10,18 +10,18 @@ visibility: hidden;
  visibility: hidden;
 }
 
-h1{
-    text-align: right;
-   margin-right: 40px;
-}
 
 .btn{
+    position: absolute;
+    left: 90%;
     width: 50px;
     height: 60px;
     font-size: 40px;
     color: blue;
     background-color:lightgreen;
    box-sizing: border-box;
+  transition: 1s;
+  animation: 2s;
 }
 
 main{
@@ -32,7 +32,7 @@ main{
     background-color: lightgrey;
     cursor: pointer;
     transition: 2s;
-   
+   position: relative;
 }
 
 main:hover{
@@ -40,7 +40,7 @@ main:hover{
 }
 
 
-h2{
+div,.heading{
     font-size: 30px;
 }
 
@@ -50,6 +50,8 @@ span{
 }
 
 .add{
+    position: absolute;
+    right: 3%;
     font-size: 60px;
 }
 ul{
